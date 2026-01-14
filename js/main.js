@@ -23,12 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     other_groups.forEach((other_group) => {
       if (other_group !== group) {
-        const otherGroupBody = other_group.querySelector('.faq-group-body');
-        const otherIcon = other_group.querySelector('.faq-group-header i');
+        const other_group_body = other_group.querySelector('.faq-group-body');
+        const other_icon = other_group.querySelector('.faq-group-header i');
 
-        otherGroupBody.classList.remove('open');
-        otherIcon.classList.remove('fa-minus');
-        otherIcon.classList.add('fa-plus');
+        other_group_body.classList.remove('open');
+        other_icon.classList.remove('fa-minus');
+        other_icon.classList.add('fa-plus');
       }
     });
   });
